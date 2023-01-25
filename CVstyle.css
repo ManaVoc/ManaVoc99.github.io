@@ -1,0 +1,203 @@
+.div{
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;   
+    line-height: 20px;
+}
+
+.SeccionNegro {
+    background-color: black;
+    height: 100px;
+}
+
+.BotonesCategoria {
+    width: 100%;
+    display: flex;
+}
+
+.ColumnaBoton{
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+}
+
+
+
+#BotonC{
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+    width: 66.66%;
+    display: inline-block;
+    overflow: visible;
+    height: 75px;
+    border-radius: 14px;
+    background-color: cyan;
+    opacity: 1;
+    border: 0px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    object-fit: fill;
+}
+
+#BotonM{
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+    width: 66.66%;
+    display: inline-block;
+    overflow: visible;
+    height: 75px;
+    border-radius: 14px;
+    background-color: magenta;
+    opacity: 1;
+    border: 0px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    object-fit: fill;
+}
+
+#BotonY{
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+    width: 66.66%;
+    display: inline-block;
+    overflow: visible;
+    height: 75px;
+    border-radius: 14px;
+    background-color: yellow;
+    opacity: 1;
+    border: 0px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+    object-fit: fill;
+}
+
+.Espacio{
+    height: 20px;
+    line-height: 10px;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+}
+
+.Encabesado{
+    position: static;
+    height: 90px;
+    background-color: transparent;
+    font-family: 'Droid Sans', sans-serif;
+    color: black;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+    margin: 0px;
+    padding: 20px;
+}
+
+.Informacion{
+    display: flex;
+    height: 420px;
+}
+
+.Formacion{
+    display: flex;
+    
+}
+
+.Habilidad{
+    display: flex;
+    
+}
+
+.blank{
+    overflow: visible;
+    height: auto;
+    background-color: transparent;
+    -o-object-fit: fill;
+    object-fit: fill;
+    width: 8.33%;
+    background-color: rgb(194, 194, 194);
+}
+
+.seccionC{
+    width: 25%;
+    height: auto;
+    background-color: cyan;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}
+
+.seccionM{
+    width: 25%;
+    height: auto;
+    background-color: magenta;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}
+
+.seccionY{
+    width: 25%;
+    height: auto;
+    background-color: yellow;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 6px black;
+}
+
+.ColumnaMedia{
+    width: 25%;
+    height: 395px;
+    column-span: all;
+}
+
+.Info{
+    width: 33.33%;
+    position: relative;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 400px;
+    color:rgb(30, 30, 30)
+}
+
+#VolverArriba{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 41.66%;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/** Todavia no soy capaz de aplicar un buen diseño responsivo, debo de investigar mas del tema.*/
